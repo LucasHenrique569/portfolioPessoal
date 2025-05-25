@@ -1,0 +1,26 @@
+#central-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000000; */
+}
+
+#central-container img {
+    width: 45%;
+    border: 1px solid #000000;
+}
+
+.central-paragraphs-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000000;
+    padding: 80px;
+}
+
+.central-paragraphs-container h2, p{
+    text-align: center;
+    font-size: 1.5;
+}
