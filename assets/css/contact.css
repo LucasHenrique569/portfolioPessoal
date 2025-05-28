@@ -1,0 +1,62 @@
+
+.data-container h2{
+    margin: 20px;
+}
+
+.data-container p {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.broken-line {
+    margin-top: 20px;
+}
+
+.formulary-title {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.formulary {
+    /*border: 1px solid #000;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+    width: fit-content;
+}
+
+.name-formulary-label {
+    margin-top: 20px;
+}
+
+.email-formulary-label, .message-formulary-label {
+    margin-top: 15px;
+}
+
+.message-formulary-area {
+    resize: none;
+    width: 300px;
+    height: 200px;
+}
+
+.submit-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-self: center;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #DCDCDC;
+}
+
+.submit-button:hover {
+    background-color: #999999;
+    font-weight: bold;
+}
+
+.name-formulary-input, .email-formulary-input {
+    width: 300px;
+}

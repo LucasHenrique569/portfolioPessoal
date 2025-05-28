@@ -1,0 +1,46 @@
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-content h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.projects-section {
+    /*border: 1px solid #000;*/
+    min-height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    column-gap: 40px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+
+.projects-section article{
+    border: 1px solid #000;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #DCDCDC;
+}
+
+.projects-section article:hover {
+    background-color: #7A7A7A;
+    cursor: pointer;
+    
+    a {
+        color: #FFF;
+        font-weight: bold;
+    }
+}

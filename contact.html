@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 </head>
 <body>
     <header>
@@ -28,6 +29,28 @@
     </header>
 
     <main>
+        <div class="data-container">
+            <h2>Entre em contato comigo por um dos meios abaixo</h2>
+            <p><strong>Email:</strong> meuemail@gmail.com</p>
+            <p><strong>Telefone:</strong> (67)9-9999-9999</p>
+        </div>
+
+        <hr class="broken-line">
+
+        <h2 class="formulary-title">Formulário de contato</h2>
+
+        <form action="#" method="post" class="formulary">
+            <label for="nome" class="name-formulary-label">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" class="name-formulary-input" required>
+
+            <label for="email" class="email-formulary-label">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" class="email-formulary-input" required>
+
+            <label for="mensagem" class="message-formulary-label">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="6" class="message-formulary-area" required></textarea>
+
+            <button type="submit" class="submit-button">Enviar</button>
+        </form>
 
     </main>
 
