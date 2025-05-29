@@ -50,6 +50,12 @@ header{
     background-color: #FAEDDC;
 }
 
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
 main {
   background-color: #FAEDDC;
   flex-grow: 1;
@@ -81,3 +87,4 @@ footer p {
     width: 50px;
     height: 50px;
 }
+

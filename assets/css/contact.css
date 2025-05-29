@@ -1,4 +1,8 @@
 
+.data-container .formulary .formulary-title {
+    margin-left: 20px;
+}
+
 .data-container h2{
     margin: 20px;
 }
@@ -9,9 +13,14 @@
     margin-bottom: 10px;
 }
 
-.broken-line {
-    margin-top: 20px;
+.divider {
+    width: 80%;
+    border: none;
+    height: 2px;
+    background-color: #C99A40; /* Mostarda mais forte */
+    margin: 20px 0;
 }
+
 
 .formulary-title {
     margin-left: 20px;
@@ -19,7 +28,6 @@
 }
 
 .formulary {
-    /*border: 1px solid #000;*/
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -59,4 +67,50 @@
 
 .name-formulary-input, .email-formulary-input {
     width: 300px;
+}
+
+main, .data-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Responsividade para telas menores que 980px */
+@media only screen and (max-width: 980px) {
+    nav {
+        position: relative;
+    }
+
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #F5C683;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 200px;
+        padding: 10px 0;
+        z-index: 1000;
+        border: 5px solid #E0AE58;
+    }
+
+    .navbar li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .navbar.show {
+        display: flex;
+    }
+
+    .navbar-item:hover{
+        background-color: #FAEDDC;
+    }
 }
