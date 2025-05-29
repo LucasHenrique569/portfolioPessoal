@@ -15,7 +15,7 @@ Este projeto tem como objetivo apresentar um portfólio pessoal de alguma pessoa
 
 - ✅ Página inicial com apresentação e saudação.
 - ✅ Página "Sobre Mim" com informações pessoais.
-- ✅ Página "Projetos" exibindo os principais projetos desenvolvidos, com links.
+- ✅ Página "Projetos" exibindo os principais projetos desenvolvidos, com links para páginas explicando mais detalhes acerca dos projetos desenvolvidos pela pessoa "dona" do portfólio.
 - ✅ Página "Contato" com formulário para envio de mensagens e informações de contato (e-mail, telefone).
 - ✅ Layout responsivo para diferentes tamanhos de tela (desktop, tablet e mobile).
 - ✅ Navegação entre páginas via menu fixo no topo.
