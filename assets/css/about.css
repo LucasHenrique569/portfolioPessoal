@@ -1,4 +1,3 @@
-
 .main-content {
     display: flex;
     align-items: center;
@@ -55,4 +54,16 @@
     .navbar-item:hover{
         background-color: #FAEDDC;
     }
+
+    footer {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    #footer-container-icons {
+        gap: 15px;
+    }
 }
+
+/* Obs: Eu acredito que apenas tratando a responsividade para tablets fez com que a responsividade para celulares também ficasse ok,
+então por isso eu acabei não criando outra "media query".*/

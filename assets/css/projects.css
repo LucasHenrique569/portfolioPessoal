@@ -21,7 +21,6 @@
     column-gap: 40px;
     row-gap: 40px;
     flex-wrap: wrap;
-    border: 1px solid #000;
 }
 
 .projects-section article{
@@ -42,6 +41,10 @@
         color: #FFF;
         font-weight: bold;
     }
+}
+
+.projects-section a{
+    font-weight: bold;
 }
 
 /* Responsividade para telas menores que 980px */
@@ -80,6 +83,7 @@
 
     .projects-section {
         flex-direction: column;
+        margin-bottom: 20px;
     }
 
     .navbar-item:hover{
@@ -89,4 +93,16 @@
     .projects-section {
         width: 80dvw;
     }
+
+    footer {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    #footer-container-icons {
+        gap: 15px;
+    }
 }
+
+/* Obs: Eu acredito que apenas tratando a responsividade para tablets fez com que a responsividade para celulares também ficasse ok,
+então por isso eu acabei não criando outra "media query".*/

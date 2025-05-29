@@ -17,7 +17,7 @@
     width: 80%;
     border: none;
     height: 2px;
-    background-color: #C99A40; /* Mostarda mais forte */
+    background-color: #C99A40;
     margin: 20px 0;
 }
 
@@ -69,6 +69,16 @@
     width: 300px;
 }
 
+.formulary input,
+.formulary textarea {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formulary label {
+    margin-bottom: 10px;
+}
+
 main, .data-container {
     display: flex;
     align-items: center;
@@ -113,4 +123,20 @@ main, .data-container {
     .navbar-item:hover{
         background-color: #FAEDDC;
     }
+
+    .data-container h2 {
+        text-align: center;
+    }
+
+    footer {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    #footer-container-icons {
+        gap: 15px;
+    }
 }
+
+/* Obs: Eu acredito que apenas tratando a responsividade para tablets fez com que a responsividade para celulares também ficasse ok,
+então por isso eu acabei não criando outra "media query".*/

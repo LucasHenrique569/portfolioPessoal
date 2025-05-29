@@ -26,7 +26,7 @@
                 </li>
             </ul>
 
-            <div class="menu-icon" onclick="toggleMenu()">
+            <div class="menu-icon">
                 &#9776; 
             </div>
         </nav>
@@ -34,24 +34,28 @@
 
     <main>
         <div class="data-container">
-            <h2>Entre em contato comigo por um dos meios abaixo</h2>
+            <h2>Quer entrar em contato comigo  ? Utilize um dos meios abaixo</h2>
             <p><strong>Email:</strong> meuemail@gmail.com</p>
-            <p><strong>Telefone:</strong> (67)9-9999-9999</p>
+            <p><strong>Telefone:</strong> (67) 9-9999-9999</p>
         </div>
 
         <hr class="divider">
         
         <h2 class="formulary-title">Formulário de contato</h2>
 
-        <form action="#" method="post" class="formulary">
-            <label for="nome" class="name-formulary-label">Nome</label>
-            <input type="text" id="nome" placeholder="Digite seu nome" class="name-formulary-input" required>
+        <form action="https://formsubmit.co/cs206838@gmail.com" method="POST" id="formulary_id_for_validation" class="formulary" novalidate>
 
-            <label for="email" class="email-formulary-label">Email</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" class="email-formulary-input" required>
+            <!-- Desativa o captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            
+            <label for="nome" class="name-formulary-label">Nome: </label>
+            <input type="text" id="nome" placeholder="Digite seu nome" class="name-formulary-input">
 
-            <label for="mensagem" class="message-formulary-label">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="6" class="message-formulary-area" required></textarea>
+            <label for="email" class="email-formulary-label">Email: </label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" class="email-formulary-input">
+
+            <label for="mensagem" class="message-formulary-label">Mensagem: </label>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="6" class="message-formulary-area"></textarea>
 
             <button type="submit" class="submit-button">Enviar</button>
         </form>
@@ -75,5 +79,6 @@
     </footer>
 
     <script src="./assets/javascripts/script.js"></script>
+    <script src="./assets/javascripts/contact.js"></script>
 </body>
 </html>
