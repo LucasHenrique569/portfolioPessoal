@@ -63,6 +63,10 @@
     #footer-container-icons {
         gap: 15px;
     }
+
+    .main-content img{
+        margin-top: 20px;
+    }
 }
 
 /* Obs: Eu acredito que apenas tratando a responsividade para tablets fez com que a responsividade para celulares também ficasse ok,

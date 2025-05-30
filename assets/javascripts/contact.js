@@ -16,8 +16,7 @@ form.addEventListener('submit', function (e) {
         alert('Por favor, digite um e-mail válido.');
         return;
     }
-
-    // Se passou na validação, envia o formulário
-    form.submit();
+    
+    alert('Formulário enviado com sucesso !!!');
     }
 );

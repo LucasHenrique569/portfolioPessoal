@@ -1,16 +1,23 @@
 
+#hidden-email,
+#hidden-phone {
+    display: none;
+}
+
 .data-container .formulary .formulary-title {
     margin-left: 20px;
 }
 
 .data-container h2{
     margin: 20px;
+    margin-bottom: 40px;
 }
 
 .data-container p {
     margin-left: 20px;
     margin-top: 40px;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .divider {
@@ -77,6 +84,19 @@
 
 .formulary label {
     margin-bottom: 10px;
+}
+
+.data-container p {
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px solid #C99A40;
+}
+
+.data-container p:hover {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #C99A40;
+    color: #FFF;
 }
 
 main, .data-container {
